@@ -1,0 +1,101 @@
+:root{
+  --color: #ff6734;
+  --white: #fff;
+  --black: #1c2b2d;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+  --twitter:  hsl(207, 93%, 46%);
+  --fb:hsl(221, 89%, 41%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+body{
+  background: linear-gradient(rgba(243, 73, 73, 0.4),rgba(0,0,0,0.4)),url(images/bg.jpg);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+    
+}
+
+.navbar{
+  background: transparent;
+}
+a.nav-link,a.nav-link active{
+  color: white;
+  font-family: sans-serif;
+  margin-top: -30px;
+}
+.navbar-brand img{
+  /* font-size: 100px; */
+  position:absolute;
+  margin-top: -5px;
+}
+span.cbg {
+    color: white;
+    float: left;
+    position: relative;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin-left: 98px;
+    margin-bottom: 5px;
+    margin-top: -15px;
+}
+span.cbg-text {
+  color: white;
+  font-size: 8px;
+  font-weight: 400;
+  font-family: sans-serif;
+  position: absolute;
+  margin-left: 114px;
+  position: fixed;
+  margin-top: -43px;
+  margin-right: 11px;
+}
+h1.cbg-h1 {
+  font-size: 122px;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: var(--white);
+  letter-spacing: 1px;
+}
+button.get-started {
+  padding: 10px 45px;
+  color: #ff0000;
+  border-radius: 30px;
+  background: white;
+  border: 1px solid #fff;
+  margin-left: 190px;
+}
+.nav-list ul {
+  background-color: white;
+  border-radius: 20px;
+}
+.nav-list li{
+  padding: 10px;
+}
+.nav-list li a{
+  text-decoration: none;
+  color: #ff0000;
+}
+.fa-lock, .internet{
+  color: rgb(133, 133, 133);
+}
+.bar{
+  color: rgb(133, 133, 133);
+  margin-left: -13px;
+}
+::after {
+  color: rgb(133, 133, 133);
+}
+
